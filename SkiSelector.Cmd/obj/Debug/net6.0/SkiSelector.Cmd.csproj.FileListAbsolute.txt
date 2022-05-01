@@ -1,0 +1,15 @@
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/SkiSelector.Cmd
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/SkiSelector.Cmd.deps.json
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/SkiSelector.Cmd.runtimeconfig.json
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/SkiSelector.Cmd.dll
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/ref/SkiSelector.Cmd.dll
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/bin/Debug/net6.0/SkiSelector.Cmd.pdb
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.csproj.AssemblyReference.cache
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.AssemblyInfoInputs.cache
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.AssemblyInfo.cs
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.csproj.CoreCompileInputs.cache
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.dll
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/ref/SkiSelector.Cmd.dll
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.pdb
+/Users/andreas/RiderProjects/StratsysSkiSelector/SkiSelector.Cmd/obj/Debug/net6.0/SkiSelector.Cmd.genruntimeconfig.cache

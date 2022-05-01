@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSelector.Core.Tests", "SkiSelector.Core.Tests\SkiSelector.Core.Tests.csproj", "{3FB7F2C6-59CD-40A2-96DB-1ACAB8CC54AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSelector.Core", "SkiSelector.Core\SkiSelector.Core.csproj", "{4EC608D5-4978-4CB8-B030-EF7942AEF541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSelector.Api", "SkiSelector.Api\SkiSelector.Api.csproj", "{B7D24F50-6C57-4D20-81D8-A744318E419A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSelector.Api.Test", "SkiSelector.Api.Test\SkiSelector.Api.Test.csproj", "{070A507C-8018-404F-915F-D54610A098A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB7F2C6-59CD-40A2-96DB-1ACAB8CC54AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB7F2C6-59CD-40A2-96DB-1ACAB8CC54AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB7F2C6-59CD-40A2-96DB-1ACAB8CC54AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB7F2C6-59CD-40A2-96DB-1ACAB8CC54AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC608D5-4978-4CB8-B030-EF7942AEF541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC608D5-4978-4CB8-B030-EF7942AEF541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC608D5-4978-4CB8-B030-EF7942AEF541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC608D5-4978-4CB8-B030-EF7942AEF541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D24F50-6C57-4D20-81D8-A744318E419A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D24F50-6C57-4D20-81D8-A744318E419A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D24F50-6C57-4D20-81D8-A744318E419A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D24F50-6C57-4D20-81D8-A744318E419A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070A507C-8018-404F-915F-D54610A098A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070A507C-8018-404F-915F-D54610A098A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070A507C-8018-404F-915F-D54610A098A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070A507C-8018-404F-915F-D54610A098A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
