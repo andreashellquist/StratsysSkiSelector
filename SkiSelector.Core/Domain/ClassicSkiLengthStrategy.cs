@@ -4,32 +4,33 @@ namespace SkiSelector.Core.Domain;
 
 public class ClassicSkiLengthStrategy:ISkiLengthStrategy
 {
-    public int AdditionToUnder5YearOlds = 0;
-    public int AdditionTo5And6YearOlds = 10;
-    public int AdditionToOver7earOlds = 20;
-    public int MaxLength = 207;
-    
-    public int? GetSuitableLenght(int age, int length)
+    private const int AdditionToUnder5YearOlds = 0;
+    private const int AdditionTo5And6YearOlds = 10;
+    private const int AdditionToOver7YearOlds = 20;
+    private const int MaxLength = 207;
+
+    public int? GetSuitableLength(int age, int length)
     {
         if (length > MaxLength)
             return MaxLength;
         
         var addition = GetLengthAdditionByAge(age);
-        for (int i = MaxLength; i > 100; i -= 5)
+        for (var i = MaxLength; i > 100; i -= 5)
         {
             if (i <= length + addition)
                 return i;
         }
 
-        return (int?)null;
+        return null;
     }
 
     private int GetLengthAdditionByAge(int age)
     {
-        if (age < 5)
-            return AdditionToUnder5YearOlds;
-        if (age < 7)
-            return AdditionTo5And6YearOlds;
-        return AdditionToOver7earOlds;
+        return age switch
+        {
+            < 5 => AdditionToUnder5YearOlds,
+            < 7 => AdditionTo5And6YearOlds,
+            _ => AdditionToOver7YearOlds
+        };
     }
 }

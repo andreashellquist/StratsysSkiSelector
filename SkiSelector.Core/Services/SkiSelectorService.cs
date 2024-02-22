@@ -9,7 +9,7 @@ public class SkiSelectorService:ISkiSelectorService
 {
     public int? GetLengthOfSkis(SkiProfileDto skiProfileDto)
     {
-        ISkiLengthStrategy skiLengthStrategy = null;
+        ISkiLengthStrategy skiLengthStrategy;
         if (skiProfileDto.SkiType == SkiType.Classic)
             skiLengthStrategy = new ClassicSkiLengthStrategy();
         else if (skiProfileDto.SkiType == SkiType.Freestyle)
@@ -19,6 +19,6 @@ public class SkiSelectorService:ISkiSelectorService
             
             return null;
         }
-        return skiLengthStrategy.GetSuitableLenght(skiProfileDto.Age, skiProfileDto.Lenght);
+        return skiLengthStrategy.GetSuitableLength(skiProfileDto.Age, skiProfileDto.Lenght);
     }
 }
