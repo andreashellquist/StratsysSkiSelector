@@ -8,7 +8,7 @@ public class SkiProfileRequest
     [Required]
     public int Age { get; set; }
     [Required]
-    public int Lenght { get; set; }
+    public int Length { get; set; }
     [Required]
     public SkiType SkiType { get; set; }
 }

@@ -20,10 +20,10 @@ public class SkiSelectorControllerTest
         var lengthResult = 203;
         var request = new SkiProfileRequest
         {
-            Age = 38, Lenght = 185, SkiType = SkiType.Classic
+            Age = 38, Length = 185, SkiType = SkiType.Classic
         };
         skiSelectorMock.Setup(x => x.GetLengthOfSkis(It.Is<SkiProfileDto>(s =>
-            s.Age == request.Age && s.Lenght == request.Lenght && s.SkiType == request.SkiType))).Returns(202);
+            s.Age == request.Age && s.Lenght == request.Length && s.SkiType == request.SkiType))).Returns(202);
         
         var controller = new SkiSelectorController(loggerMock.Object, skiSelectorMock.Object);
         
